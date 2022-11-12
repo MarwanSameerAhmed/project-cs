@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ii"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt_unit_name_ly2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Add Products "
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etext_product_name_ly6"
+        android:background="@drawable/round_back_etext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="25dp"
+        android:ems="10"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_drive_file_name"
+        android:hint="Product name"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etext_product_number_ly6"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_baseline_numbers_24"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/round_back_etext"
+        android:layout_marginLeft="23dp"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Product number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etext_unit_name_ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:drawableLeft="@drawable/ic_baseline_ad_units_24"
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_back_etext"
+        android:ems="10"
+        android:padding="18dp"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/white"
+        android:hint="Base unit name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etext_units_price_ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_baseline_price_24"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="22dp"
+        android:ems="10"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/round_back_etext"
+        android:hint="Unit price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etext_units_number_ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:padding="18dp"
+        android:drawableLeft="@drawable/ic_baseline_format_list"
+        android:drawablePadding="10dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_back_etext"
+        android:hint="Number of units"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/chbox_negotiable_ly6"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Negotiable"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_add_ly6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_shape_btn"
+        android:backgroundTint="@color/white"
+        android:text="add"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ii"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etext_unit_name_ly11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back_etext"
+        android:layout_marginRight="26dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_drive_file_name"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="Unit name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etext_unit_conversion_ly11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/round_back_etext"
+        android:layout_marginRight="25dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="25dp"
+        android:ems="10"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_numbers_24"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:hint="Conversion factor"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etext_unit_price_ly11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back_etext"
+
+        android:layout_marginRight="26dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_price_24"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:hint="Unit price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_add_ly11"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="add" />
+</LinearLayout>
